@@ -1,6 +1,6 @@
 # Rock Paper Scissors Lizard Spock
 
-<div id="table-of-contents">
+<div id="table-of-contents" />
 ## Table of Contents
 
 1. [Introduction](#introduction)
@@ -11,9 +11,8 @@
 3. [Key Concepts](#Key Concepts)
 4. [Key Code](#Key Code)
 5. [Try It](#Try It)
-</div>
 
-<div id="introduction">
+<div id="introduction" />
 ## Introduction
 
 Building a Rock Paper Scissors Lizard Spock game for you to play against the computer. The rule can be summarised by the picture below:
@@ -22,7 +21,6 @@ Building a Rock Paper Scissors Lizard Spock game for you to play against the com
 [logo]: rule.jpg
 
 **[⬆ back to top](#table-of-contents)**
-</div>
 
 ## Tutorial
 
