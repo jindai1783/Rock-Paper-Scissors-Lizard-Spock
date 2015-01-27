@@ -18,7 +18,7 @@
 Building a Rock Paper Scissors Lizard Spock game for you to play against the computer. The rule can be summarised by the picture below:
 
 ![alt text][logo]
-[logo]: rule.jpg
+[logo]: images/rule.jpg
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -35,6 +35,8 @@ In my case, I have decided to implement the first MVP with 2 pages. One page all
 After implementing the MVP1, the project is open to additional functionality and decorations, such as a statistic counter, fancy animations, and etc. But first, the MVP1.
 
 The language to build the application would be html, css and javascript.
+
+**[⬆ back to top](#table-of-contents)**
 
 <div id="implementing-html-layer" />
 ### Implementing HTML Layer
@@ -54,6 +56,16 @@ The HTML layer includes the following elements:
 ### Implementing CSS Layer
 
 When trying to implement vertical-align: middle, it is not working. The issue is solved by setting the block element to absolute position, auto margin, and a suitable width and height.
+
+After added the stylesheet, I decided to clean up the file stucture of the repository.
+* js
+* public
+  * images
+  * stylesheets
+* spec
+* views
+* README
+
 
 **[⬆ back to top](#table-of-contents)**
 
