@@ -1,6 +1,15 @@
 # Rock Paper Scissors Lizard Spock
 
+## Table of Contents
 
+1. [Introduction](#Introduction)
+2. [Tutorial](#Tutorial)
+  1. [Initial Design](#Initial Design)
+  2. [Implementing HTML Layer](#Implementing HTML Layer)
+  3. [Implementing CSS Layer](#Implementing CSS Layer)
+3. [Key Concepts](#Key Concepts)
+4. [Key Code](#Key Code)
+5. [Try It](#Try It)
 
 ## Introduction
 
@@ -9,10 +18,11 @@ Building a Rock Paper Scissors Lizard Spock game for you to play against the com
 ![alt text][logo]
 [logo]: rule.jpg
 
+**[⬆ back to top](#table-of-contents)**
 
 ## Tutorial
 
-### Initial design
+### Initial Design
 
 Before starting building the repository, it is useful to first think about how the front-end of the application should be like. How would the user interact with the website? How many pages would be optimum to server the purpose? What would be the MVP sequence to build the application?
 
@@ -22,7 +32,7 @@ After implementing the MVP1, the project is open to additional functionality and
 
 The language to build the application would be html, css and javascript.
 
-### Implementing HTML layer
+### Implementing HTML Layer
 
 The HTML layer includes the following elements:
 * index.html
@@ -33,18 +43,27 @@ The HTML layer includes the following elements:
   * Result message
   * Redirection message
 
-### Implementing the CSS layer
+**[⬆ back to top](#table-of-contents)**
+
+
+### Implementing CSS Layer
 
 When trying to implement vertical-align: middle, it is not working. The issue is solved by setting the block element to absolute position, auto margin, and a suitable width and height.
 
+**[⬆ back to top](#table-of-contents)**
 
-### Key concepts
+
+### Key Concepts
 
 * Follow the sequence of **content** - **presentation** - **behaviour**. That is, first filling the content in the **html layer**, then styling in the **css layer**, finally adding logic through **javascript layer**.
 * Think of every content on the screen is wrapped inside a invisible box.
 
+**[⬆ back to top](#table-of-contents)**
 
-### Key code
+
+### Key Code
+
+**[⬆ back to top](#table-of-contents)**
 
 
 ## Try It
