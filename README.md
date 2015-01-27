@@ -1,10 +1,14 @@
 # Rock Paper Scissors Lizard Spock
 
 
+
 ## Introduction
+
+Building a Rock Paper Scissors Lizard Spock game for you to play against the computer. The rule can be summarised by the picture below:
 
 ![alt text][logo]
 [logo]: rule.jpg
+
 
 ## Tutorial
 
@@ -18,10 +22,26 @@ After implementing the MVP1, the project is open to additional functionality and
 
 The language to build the application would be html, css and javascript.
 
+### Implementing HTML layer
+
+The HTML layer includes the following elements:
+* index.html
+  * Registering block
+  * Text message
+  * Action icons
+* result.html
+  * Result message
+  * Redirection message
+
+### Implementing the CSS layer
+
+When trying to implement vertical-align: middle, it is not working. The issue is solved by setting the block element to absolute position, auto margin, and a suitable width and height.
+
 
 ### Key concepts
 
 * Follow the sequence of **content** - **presentation** - **behaviour**. That is, first filling the content in the **html layer**, then styling in the **css layer**, finally adding logic through **javascript layer**.
+* Think of every content on the screen is wrapped inside a invisible box.
 
 
 ### Key code
