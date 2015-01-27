@@ -21,7 +21,7 @@ The language to build the application would be html, css and javascript.
 
 ### Key concepts
 
-* Follow the sequence of content - presentation - behaviour. That is, first filling the content in the html layer, then styling using css, finally adding logic through scripts.
+* Follow the sequence of **content** - **presentation** - **behaviour**. That is, first filling the content in the **html layer**, then styling in the **css layer**, finally adding logic through **javascript layer**.
 
 
 ### Key code
