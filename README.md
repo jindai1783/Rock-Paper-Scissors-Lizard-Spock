@@ -45,7 +45,6 @@ The HTML layer includes the following elements:
 
 **[⬆ back to top](#table-of-contents)**
 
-
 ### Implementing CSS Layer
 
 When trying to implement vertical-align: middle, it is not working. The issue is solved by setting the block element to absolute position, auto margin, and a suitable width and height.
@@ -64,6 +63,8 @@ When trying to implement vertical-align: middle, it is not working. The issue is
 ### Key Code
 
 **[⬆ back to top](#table-of-contents)**
+
+### Key Code
 
 
 ## Try It
