@@ -4,13 +4,13 @@
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [Tutorial](#Tutorial)
-  1. [Initial Design](#Initial Design)
-  2. [Implementing HTML Layer](#Implementing HTML Layer)
-  3. [Implementing CSS Layer](#Implementing CSS Layer)
-3. [Key Concepts](#Key Concepts)
-4. [Key Code](#Key Code)
-5. [Try It](#Try It)
+2. [Tutorial](#tutorial)
+  1. [Initial Design](#initial-design)
+  2. [Implementing HTML Layer](#implementing-html-layer)
+  3. [Implementing CSS Layer](#implementing-css-layer)
+3. [Key Concepts](#key-concepts)
+4. [Key Code](#key-code)
+5. [Try It](#try-it)
 
 <div id="introduction" />
 ## Introduction
@@ -22,8 +22,10 @@ Building a Rock Paper Scissors Lizard Spock game for you to play against the com
 
 **[⬆ back to top](#table-of-contents)**
 
+<div id="introduction" />
 ## Tutorial
 
+<div id="initial-design" />
 ### Initial Design
 
 Before starting building the repository, it is useful to first think about how the front-end of the application should be like. How would the user interact with the website? How many pages would be optimum to server the purpose? What would be the MVP sequence to build the application?
@@ -34,6 +36,7 @@ After implementing the MVP1, the project is open to additional functionality and
 
 The language to build the application would be html, css and javascript.
 
+<div id="implementing-html-layer" />
 ### Implementing HTML Layer
 
 The HTML layer includes the following elements:
@@ -47,13 +50,14 @@ The HTML layer includes the following elements:
 
 **[⬆ back to top](#table-of-contents)**
 
+<div id="implementing-css-layer" />
 ### Implementing CSS Layer
 
 When trying to implement vertical-align: middle, it is not working. The issue is solved by setting the block element to absolute position, auto margin, and a suitable width and height.
 
 **[⬆ back to top](#table-of-contents)**
 
-
+<div id="key-concepts" />
 ### Key Concepts
 
 * Follow the sequence of **content** - **presentation** - **behaviour**. That is, first filling the content in the **html layer**, then styling in the **css layer**, finally adding logic through **javascript layer**.
@@ -61,12 +65,10 @@ When trying to implement vertical-align: middle, it is not working. The issue is
 
 **[⬆ back to top](#table-of-contents)**
 
-
+<div id="key-code" />
 ### Key Code
 
 **[⬆ back to top](#table-of-contents)**
 
-### Key Code
-
-
+<div id="try-it" />
 ## Try It
