@@ -74,6 +74,20 @@ After added the stylesheet, I decided to clean up the file stucture of the repos
 
 After styling the css to fit the requirement of MVP1, we start to add logic to the game.
 
+1. Before the user register their name, she should not see the message "Please select your action". To implement this, JQuery can be used. We do not want to use the form tag here, because this will redirect to another page, and the JQuery actions will be overrided.
+
+2. When the action icons appear, we want to add a hovering effect so the user will have an indication of where the mouse is pointing at. This can be accompolished by adding in the stylesheet :hover {opacity:0.5;}.
+
+3. Once the user clicked on an action, she should be see the computer's random choice, and the page should show a message of who wins.
+
+#### Creating Javascript Objects
+
+The method I used here is backward deduction. I start by creating a object constructor, then inserting the necessary variables and functions, in chronological sequence - that is, never call a function that lies underneath.
+
+When debugging, turn the Safari console on! That's probably more helpful than Jasmine.
+
+
+
 <div id="key-concepts" />
 ### Key Concepts
 
@@ -84,6 +98,15 @@ After styling the css to fit the requirement of MVP1, we start to add logic to t
 
 <div id="key-code" />
 ### Key Code
+
+JQuery:
+slideUp()
+slideDown()
+hide()
+fadeIn()
+fadeOut()
+fadeToggle()
+css({color:"red"})
 
 **[⬆ back to top](#table-of-contents)**
 

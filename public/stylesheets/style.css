@@ -15,7 +15,7 @@ body {
   height: 250px;
 }
 
-.button {
+button {
   font-family: "Century Gothic";
   font-size: 20px;
 
@@ -31,4 +31,8 @@ body {
 
   width: 380px;
   height: 42px;
+}
+
+.icon:hover {
+  opacity: 0.5;
 }
