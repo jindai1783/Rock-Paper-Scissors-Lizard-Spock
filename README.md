@@ -8,6 +8,7 @@
   1. [Initial Design](#initial-design)
   2. [Implementing HTML Layer](#implementing-html-layer)
   3. [Implementing CSS Layer](#implementing-css-layer)
+  4. [Implementing JS Layer](#implementing-js-layer)
 3. [Key Concepts](#key-concepts)
 4. [Key Code](#key-code)
 5. [Try It](#try-it)
@@ -18,7 +19,7 @@
 Building a Rock Paper Scissors Lizard Spock game for you to play against the computer. The rule can be summarised by the picture below:
 
 ![alt text][logo]
-[logo]: images/rule.jpg
+[logo]: public/images/rule.jpg
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -66,8 +67,12 @@ After added the stylesheet, I decided to clean up the file stucture of the repos
 * views
 * README
 
-
 **[⬆ back to top](#table-of-contents)**
+
+<div id="implementing-js-layer" />
+### Implementing JS Layer
+
+After styling the css to fit the requirement of MVP1, we start to add logic to the game.
 
 <div id="key-concepts" />
 ### Key Concepts
