@@ -27,6 +27,8 @@ Building a Rock Paper Scissors Lizard Spock game for you to play against the com
 <div id="try-it" />
 ## Try It
 
+
+
 <div id="introduction" />
 ## Tutorial
 
@@ -100,6 +102,7 @@ When debugging, turn the Safari console on! That's probably more helpful than Ja
 
 * Follow the sequence of **content** - **presentation** - **behaviour**. That is, first filling the content in the **html layer**, then styling in the **css layer**, finally adding logic through **javascript layer**.
 * Think of every content on the screen is wrapped inside a invisible box.
+* In order to push to Heroku, we follow the sequence of creating bundle and generating controller through cucumber-sinatra.
 
 **[⬆ back to top](#table-of-contents)**
 
