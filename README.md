@@ -27,7 +27,9 @@ Building a Rock Paper Scissors Lizard Spock game for you to play against the com
 <div id="try-it" />
 ## Try It
 
+I have used Heroku to host the sinatra application, so you can click [here] to play the game!
 
+[here]: https://rock-paper-scissors-jin.herokuapp.com
 
 <div id="introduction" />
 ## Tutorial
