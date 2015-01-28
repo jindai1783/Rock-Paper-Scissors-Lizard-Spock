@@ -14,50 +14,36 @@ $(function() {
   $("#rock")
   .click(function() {
     game = new Game("rock");
-    alert(game.comChoice + game.userChoice);
+    $("#register").hide();
+    $("#message").html(game.result);
   });
 
   $("#paper")
   .click(function() {
     game = new Game("paper");
-    game.match();
+    $("#register").hide();
+    $("#message").html(game.result);
   });
 
   $("#scissors")
   .click(function() {
     game = new Game("scissors");
-    alert("Scissors");
+    $("#register").hide();
+    $("#message").html(game.result);
   });
 
   $("#lizard")
   .click(function() {
     game = new Game("lizard");
-    alert("Lizard");
+    $("#register").hide();
+    $("#message").html(game.result);
   });
 
   $("#spock")
   .click(function() {
     game = new Game("spock");
-    alert("Spock");
+    $("#register").hide();
+    $("#message").html(game.result);
   });
 
 });
-
-function Game(userChoice) {
-  this.userChoice = userChoice;
-  this.comRandom = Math.random();
-  this.getComChoice = function(comRandom) {
-    if (comRandom <= 0.2)
-      return("rock");
-    else if (comRandom > 0.2 && comRandom <= 0.4)
-      return("paper");
-    else if (comRandom > 0.4 && comRandom <= 0.6)
-      return("scissors");
-    else if (comRandom > 0.6 && comRandom <= 0.8)
-      return("lizard");
-    else
-      return("spock");
-  };
-  this.comChoice = this.getComChoice(this.comRandom);
-  this.
-}

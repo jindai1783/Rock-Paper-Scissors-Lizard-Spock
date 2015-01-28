@@ -4,14 +4,15 @@
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [Tutorial](#tutorial)
+2. [Try It](#try-it)
+3. [Tutorial](#tutorial)
   1. [Initial Design](#initial-design)
   2. [Implementing HTML Layer](#implementing-html-layer)
   3. [Implementing CSS Layer](#implementing-css-layer)
   4. [Implementing JS Layer](#implementing-js-layer)
-3. [Key Concepts](#key-concepts)
-4. [Key Code](#key-code)
-5. [Try It](#try-it)
+  5. [Creating Javascript Objects](#creating-javascript-objects")
+4. [Key Concepts](#key-concepts)
+5. [Key Code](#key-code)
 
 <div id="introduction" />
 ## Introduction
@@ -22,6 +23,9 @@ Building a Rock Paper Scissors Lizard Spock game for you to play against the com
 [logo]: public/images/rule.jpg
 
 **[⬆ back to top](#table-of-contents)**
+
+<div id="try-it" />
+## Try It
 
 <div id="introduction" />
 ## Tutorial
@@ -80,16 +84,19 @@ After styling the css to fit the requirement of MVP1, we start to add logic to t
 
 3. Once the user clicked on an action, she should be see the computer's random choice, and the page should show a message of who wins.
 
-#### Creating Javascript Objects
+**[⬆ back to top](#table-of-contents)**
+
+<div id="creating-javascript-objects" />
+### Creating Javascript Objects
 
 The method I used here is backward deduction. I start by creating a object constructor, then inserting the necessary variables and functions, in chronological sequence - that is, never call a function that lies underneath.
 
 When debugging, turn the Safari console on! That's probably more helpful than Jasmine.
 
-
+**[⬆ back to top](#table-of-contents)**
 
 <div id="key-concepts" />
-### Key Concepts
+## Key Concepts
 
 * Follow the sequence of **content** - **presentation** - **behaviour**. That is, first filling the content in the **html layer**, then styling in the **css layer**, finally adding logic through **javascript layer**.
 * Think of every content on the screen is wrapped inside a invisible box.
@@ -97,7 +104,7 @@ When debugging, turn the Safari console on! That's probably more helpful than Ja
 **[⬆ back to top](#table-of-contents)**
 
 <div id="key-code" />
-### Key Code
+## Key Code
 
 JQuery:
 slideUp()
@@ -109,6 +116,3 @@ fadeToggle()
 css({color:"red"})
 
 **[⬆ back to top](#table-of-contents)**
-
-<div id="try-it" />
-## Try It
