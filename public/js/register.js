@@ -16,6 +16,7 @@ $(function() {
     game = new Game("rock");
     $("#register").hide();
     $("#message").html(game.result);
+    $("#rock").toggle(100).toggle(100);
   });
 
   $("#paper")
@@ -23,6 +24,7 @@ $(function() {
     game = new Game("paper");
     $("#register").hide();
     $("#message").html(game.result);
+    $("#paper").toggle(100).toggle(100);
   });
 
   $("#scissors")
@@ -30,6 +32,7 @@ $(function() {
     game = new Game("scissors");
     $("#register").hide();
     $("#message").html(game.result);
+    $("#scissors").toggle(100).toggle(100);
   });
 
   $("#lizard")
@@ -37,6 +40,7 @@ $(function() {
     game = new Game("lizard");
     $("#register").hide();
     $("#message").html(game.result);
+    $("#lizard").toggle(100).toggle(100);
   });
 
   $("#spock")
@@ -44,6 +48,7 @@ $(function() {
     game = new Game("spock");
     $("#register").hide();
     $("#message").html(game.result);
+    $("#spock").toggle(100).toggle(100);
   });
 
 });
