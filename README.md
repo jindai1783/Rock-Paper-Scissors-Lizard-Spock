@@ -22,8 +22,6 @@ Building a Rock Paper Scissors Lizard Spock game for you to play against the com
 ![alt text][logo]
 [logo]: public/images/rule.jpg
 
-**[⬆ back to top](#table-of-contents)**
-
 <div id="try-it" />
 ## Try It
 
@@ -45,8 +43,6 @@ After implementing the MVP1, the project is open to additional functionality and
 
 The language to build the application would be html, css and javascript.
 
-**[⬆ back to top](#table-of-contents)**
-
 <div id="implementing-html-layer" />
 ### Implementing HTML Layer
 
@@ -59,7 +55,7 @@ The HTML layer includes the following elements:
   * Result message
   * Redirection message
 
-**[⬆ back to top](#table-of-contents)**
+**[back to top](#table-of-contents)**
 
 <div id="implementing-css-layer" />
 ### Implementing CSS Layer
@@ -75,8 +71,6 @@ After added the stylesheet, I decided to clean up the file stucture of the repos
 * views
 * README
 
-**[⬆ back to top](#table-of-contents)**
-
 <div id="implementing-js-layer" />
 ### Implementing JS Layer
 
@@ -88,7 +82,7 @@ After styling the css to fit the requirement of MVP1, we start to add logic to t
 
 3. Once the user clicked on an action, she should be see the computer's random choice, and the page should show a message of who wins.
 
-**[⬆ back to top](#table-of-contents)**
+**[back to top](#table-of-contents)**
 
 <div id="creating-javascript-objects" />
 ### Creating Javascript Objects
@@ -97,8 +91,6 @@ The method I used here is backward deduction. I start by creating a object const
 
 When debugging, turn the Safari console on! That's probably more helpful than Jasmine.
 
-**[⬆ back to top](#table-of-contents)**
-
 <div id="key-concepts" />
 ## Key Concepts
 
@@ -106,12 +98,11 @@ When debugging, turn the Safari console on! That's probably more helpful than Ja
 * Think of every content on the screen is wrapped inside a invisible box.
 * In order to push to Heroku, we follow the sequence of creating bundle and generating controller through cucumber-sinatra.
 
-**[⬆ back to top](#table-of-contents)**
-
 <div id="key-code" />
 ## Key Code
 
 JQuery:
+```
 slideUp()
 slideDown()
 hide()
@@ -119,5 +110,6 @@ fadeIn()
 fadeOut()
 fadeToggle()
 css({color:"red"})
+```
 
-**[⬆ back to top](#table-of-contents)**
+**[back to top](#table-of-contents)**
