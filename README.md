@@ -22,6 +22,7 @@ Building a Rock Paper Scissors Lizard Spock game for you to play against the com
 ![alt text][logo]
 [logo]: public/images/rule.jpg
 
+
 <div id="try-it" />
 ## Try It
 
@@ -70,6 +71,9 @@ After added the stylesheet, I decided to clean up the file stucture of the repos
 * spec
 * views
 * README
+
+![alt text][screen]
+[screen]: public/images/screen.png
 
 <div id="implementing-js-layer" />
 ### Implementing JS Layer
